@@ -1,0 +1,36 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.background {
+    height: 729px;
+    width: 1536px;
+    filter: brightness(60%);
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    background-color: rgba(0, 0, 128, 1);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.button:hover {
+    background-color: rgb(0, 0, 165)
+}
