@@ -9,18 +9,18 @@
 </head>
 <body>
     <div class="navbar">
-        <a href="home.html" class="active">Home</a>
-        <a href="winkel.html">Winkel</a>
+        <a href="home.php" class="active">Home</a>
+        <a href="winkel.php">Winkel</a>
         <div class="dropdown">
             <button class="dropbtn">Producten</button>
             <div class="dropdown-content">
-                <a href="mysteryshirt.html">Mystery Shirt</a>
-                <a href="wedstrijdgedragenshirt.html">Wedstrijd Gedragen Shirt</a>
-                <a href="gesigneerdshirt.html">Gesigneerd Shirt</a>
-                <a href="cadeaubon.html">Cadeaubon</a>
+                <a href="mysteryshirt.php">Mystery Shirt</a>
+                <a href="wedstrijdgedragenshirt.php">Wedstrijd Gedragen Shirt</a>
+                <a href="gesigneerdshirt.php">Gesigneerd Shirt</a>
+                <a href="cadeaubon.php">Cadeaubon</a>
             </div>
         </div>
-        <a href="info.html">Info</a>
+        <a href="info.php">Info</a>
     </div>
 
     <div class="overlay">

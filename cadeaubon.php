@@ -3,48 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gesigneerd Shirt</title>
+    <title>Cadeaubon</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="png" href="mysteryshirt.webp">
 </head>
 <body>
     <div class="navbar">
-        <a href="home.html">Home</a>
-        <a href="winkel.html"  class="active">Winkel</a>
+        <a href="home.php">Home</a>
+        <a href="winkel.php"  class="active">Winkel</a>
         <div class="dropdown">
             <button class="dropbtn">Producten</button>
             <div class="dropdown-content">
-                <a href="mysteryshirt.html">Mystery Shirt</a>
-                <a href="wedstrijdgedragenshirt.html">Wedstrijd Gedragen Shirt</a>
-                <a href="gesigneerdshirt.html">Gesigneerd Shirt</a>
-                <a href="cadeaubon.html">Cadeaubon</a>
+                <a href="mysteryshirt.php">Mystery Shirt</a>
+                <a href="wedstrijdgedragenshirt.php">Wedstrijd Gedragen Shirt</a>
+                <a href="gesigneerdshirt.php">Gesigneerd Shirt</a>
+                <a href="cadeaubon.php">Cadeaubon</a>
             </div>
         </div>
-        <a href="info.html">Info</a>
+        <a href="info.php">Info</a>
     </div>
     <div class="container">
         <div class="image">
             <img src="mysteryshirt.webp" alt="Mystery Shirt">
         </div>
         <div class="info-box">
-            <p><h1>Gesigneerd Shirt</h1></p>
-            <p><h2>€199,95</h2></p>
+            <p><h1>Cadeaubon</h1></p>
+            <p><h2>€5 tot €500</h2></p>
             <br>
             <form action="#" method="get">
-                <label for="maat"><h2>Kies je maat:</h2></label>
-                <select id="maat" name="maat">
-                    <option value="extrasmall">XS</option>
-                    <option value="small">S</option>
-                    <option value="medium">M</option>
-                    <option value="large">L</option>
-                    <option value="extralarge">XL</option>
-                    <option value="xxlarge">XXL</option>
-                    <option value="xxxlarge">XXXL</option>
-                    <option value="xxxxlarge">XXXXL</option>
-                </select>
+                <label for="prijs"><h2>Kies je prijs:</h2></label>
+                <input type="number" id="prijs" name="prijs" min="5" max="500" step="5">
                 <br>
-            </form>
-            <form action="#" method="get">
                 <label for="maat"><h2>Aantal:</h2></label>
                 <select id="maat" name="maat">
                     <option value="een">1</option>
@@ -59,10 +48,9 @@
                     <option value="tien">10</option>
                 </select>
                 <br>
+                <br>
+                <button type="submit">Voeg toe aan winkelwagen</button>
             </form>
-            <br>
-            <br>
-            <button>Voeg toe aan winkelwagen</button>
         </div>
     </div>
 </body>
