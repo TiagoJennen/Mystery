@@ -6,6 +6,7 @@
     <title>Info</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="png" href="mysteryshirt.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <div class="navbar">
@@ -21,6 +22,9 @@
             </div>
         </div>
         <a href="info.php" class="active">Info</a>
+        <a href="login.php" class="account-icon">
+    <i class="fas fa-user"></i> 
+</a>
     </div>
     <div class="container">
         <a href="" class="product-box box1">
